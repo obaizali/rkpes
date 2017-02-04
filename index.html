@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>RKPES</title>
+    <link rel="shortcut icon" href="images/rkpes.png">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Custom Theme files -->
@@ -10,8 +11,7 @@
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Agility  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <meta name="keywords" content=""/>
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
@@ -39,17 +39,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close" id="init-popup-close">&times;</button>
                 <h4 class="modal-title">Kindly fill in your details!</h4>
             </div>
             <div class="modal-body">
                 <div class="contact-block-left">
-                    <form action="#" method="post">
-                        <input type="text" placeholder="Name (required)" required="" name="Name">
-                        <input type="text" class="email" placeholder="Phone (required)" name="Phone">
-                        <input type="text" class="subject" placeholder="Email (required)" name="Email">
+                    <form action="#" method="post" id="init-popup-form">
+                        <input type="text" placeholder="Name (required)" required="" name="name">
+                        <input type="text" class="email" placeholder="Phone (required)" name="phone">
+                        <input type="text" class="subject" placeholder="Email (required)" name="email">
                         <textarea placeholder="Message" name="message"></textarea>
-                        <input type="submit" value="Send">
+                        <input type="submit" value="Send" id="init-popup-submit">
                     </form>
                 </div>
             </div>
@@ -267,7 +267,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h3>20</h3>
                     <h4>June</h4>
                 </div>-->
-            <div class="col-md-5 event-text">
+            <div class="col-md-4 col-md-offset-2 event-text">
                 <h4>Study in USA</h4>
                 <p>In order to get the direct admission in MBBS in USA, the student should have studied the Pre-Medical
                     course leading to Bachelor of Science (B.S.) program</p>
@@ -298,7 +298,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h3>24</h3>
                 <h4>June</h4>
             </div>-->
-            <div class="col-md-5 event-text">
+            <div class="col-md-4 col-md-offset-2 event-text">
                 <h4>Study in Russia</h4>
                 <p>Study MBBS in Top Medical colleges of Russia approved by WHO / MCI. Lowest fee structure , English
                     medium MBBS course, Easy Admission Process for MBBs in Russia.</p>
@@ -328,7 +328,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h3>26</h3>
                 <h4>June</h4>
             </div>-->
-            <div class="col-md-5 event-text">
+            <div class="col-md-4 col-md-offset-2 event-text">
                 <h4>MBBS in India</h4>
                 <p>Medical colleges in India, accredited by the Medical Council of India, all title the degrees as
                     MBBS. </p>

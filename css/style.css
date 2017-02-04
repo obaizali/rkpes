@@ -385,15 +385,15 @@ span.glyphicon.glyphicon-usd{
 }
 
 .ch-img-2 {
-    background:#2059b5;
+    background:#a2b040;
 }
 
 .ch-img-3 {
-    background:#a2b040;
+    background:#f2af00;
 }
 /*-- w3layouts --*/
 .ch-img-4 {
-    background:#f2af00;
+    background:#2059b5;
 }
 .ch-info h3 {
     color: #fff;
@@ -1482,7 +1482,7 @@ h3.typo1 {
     background:#a2b040;
     color: #fff;
     font-size: 0.95em;
-    width: 15%;
+
     margin-top: 0.4em;
     border: none;
     padding:0.5em 0.8em;
@@ -2085,10 +2085,12 @@ span.glyphicon.glyphicon-envelope {
         padding-top: 0.5em;
     }
     span.books {
-        background: url(../images/two-books.png)no-repeat 50% 0;
-        width: 100px;
-        height: 100px;
-        background-size: auto;
+        background: url(../images/rkpes.png) no-repeat 50% 0;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
     }
     .logo h1 {
         font-size: 2.3em;
