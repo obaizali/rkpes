@@ -707,12 +707,12 @@ ul.callbacks_tabs.callbacks1_tabs {
     line-height: 1.8em;
 }
 div#colorful-elliptic {
-    background: #2d2d28 !important;
+    background: #89897f !important;
 }
 .colorful-tab-content ul {
     padding: 0px;
 }
-.colorful-tab-content ul li {
+.colorful-tab-content ul li *{
     font-size: 1em;
     color: #fff;
     font-family: 'Roboto', sans-serif;
